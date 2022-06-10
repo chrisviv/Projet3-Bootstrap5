@@ -17,3 +17,8 @@ h1{color: #252B42;}
 #imgSect3{width:333px;height:442px;}
 #imgPerson{width: 30px;height: 30px;}
 #imgCompter{width:32px; height: 26px;}
+.boxFeatures{min-height: 100vh;}
+.boxAbut{min-height: 100vh;}
+.boxContact{min-height: 100vh;}
+.card2-body{background: #252B42;height: 393px;}
+.card1-body,.card3-body{ height: 333px;}
