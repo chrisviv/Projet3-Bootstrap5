@@ -1,0 +1,19 @@
+body{font-family: 'Montserrat', sans-serif;}
+h2, h5{color:#252B42;}
+p, h6{color:#737373; font-size: 14px;}
+h1{color: #252B42;}
+.sousTitle{color: #737373;}
+/*.titleButton{color: #00A0C1;}*/
+.pSect1{font-size: 14px; color: #737373;}
+#img1Sect1{width: 47.32px;height: 40.56px;}
+#img2Sect1{width: 48px;height: 47.41px;}
+#img3Sect1{width: 48px;height: 38px;}
+#imgTel{width: 72px;height: 72px;}
+#imgPosition{width: 75px;height: 71px;}
+#imgLetter{width: 69px;height: 72px;}
+.card1{background:#00A0C1;color:#fff;} 
+.card-text1{font-size: 14px;color:#737373;}
+.card-title1{color:#252B42;}
+#imgSect3{width:333px;height:442px;}
+#imgPerson{width: 30px;height: 30px;}
+#imgCompter{width:32px; height: 26px;}
