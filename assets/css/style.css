@@ -3,43 +3,49 @@ body{font-family: 'Montserrat', sans-serif;}
 h2, h5{color:#252B42;}
 p, h6{color:#737373; font-size: 14px;}
 h1{color: #252B42;}
+/******************************Section Navigation **************/
+#boxNav{min-height:5vh; background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
+#imgLoupe{height: 16px;}
+#imgPanier{height:16px;}
+
 /******************************section box Header***************/
-#boxHeader{min-height:785px; background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%); ; }
+#boxHeader{min-height:48vh; background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
 .sousTitle{color: #737373;}
-.color1{color:#00A0C1;}
+.btn1{background: #00A0C1;}
+
 /*****************************section Features*****************/
-#boxFeatures{height:529px;}
+#boxFeatures{min-height:100vh;}
 .pSect1{font-size: 14px; color: #737373;}
 #img1Sect1{width: 47.32px;height: 40.56px;}
 #img2Sect1{width: 48px;height: 47.41px;}
 #img3Sect1{width: 48px;height: 38px;}
 /***************************section Practice******************/
-#boxPractice{height: 699px;background: #fafafa;}
+#boxPractice{min-height:100vh;background: #fafafa;}
 .card-text1{font-size: 14px;color:#737373;}
 .card-title1{color:#252B42;}
 /*************************section About***********************/
-#boxAbout{min-height: 911px;background: #16697A;}
+#boxAbout{min-height:100vh;}
 #imgSect3{width:333px;height:442px;}
 #imgPerson{width: 30px;height: 30px;}
-#imgCompter{width:32px; height: 26px;}
+#imgCompter{width:32px;height: 26px;}
 /*section client*/
-#boxclient{height:349px;background: #f3f3f3}
+#boxclient{min-height:100vh;background: #f3f3f3}
 .cadreBlue{height:77px; width:144px; background: #252B42;}
 /**********************section contact***********************/
-#boxContact{background: #f3f3f3; height: 808px;}
+#boxContact{background: #f3f3f3;min-height:100vh;}
 .card1{background:#00A0C1;color:#fff;} 
 .card2-body{background: #252B42;height: 393px;}
-.card1-body,.card3-body{ height: 333px;}
+.card1-body,.card3-body{height: 333px;}
 .white{color: #fff;}
 #imgTel{width: 72px;height: 72px;}
 #imgPosition{width: 75px;height: 71px;}
 #imgLetter{width: 69px;height: 72px;}
 /***************section consulting****************************/
-#consulting {height:142px; background: #fafafa;}
+#consulting {min-height:40vh; background: #fafafa;}
 /*section info*/
-#info{background: #16697A; height:272px;}
+#info{background: #16697A; min-height:272px;}
 .phone{height: 23px; }
 .position{height: 30px; background-color: #8EC2F2;}
 .envelop{height: 25px;}
 /******************section footer*****************************/
-#boxFooter{height:74px;}
+#boxFooter{min-height:10vh;width: 100%;}
