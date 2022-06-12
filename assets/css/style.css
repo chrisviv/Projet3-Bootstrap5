@@ -4,33 +4,33 @@ h2, h5{color:#252B42;}
 p, h6{color:#737373; font-size: 14px;}
 h1{color: #252B42;}
 /******************************Section Navigation **************/
-#boxNav{min-height:5vh; background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
+#boxNav{min-height:8vh; background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
 #imgLoupe{height: 16px;}
 #imgPanier{height:16px;}
-
 /******************************section box Header***************/
 #boxHeader{min-height:48vh; background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
 .sousTitle{color: #737373;}
 .btn1{background: #00A0C1;}
-
 /*****************************section Features*****************/
-#boxFeatures{min-height:100vh;}
-.pSect1{font-size: 14px; color: #737373;}
+#boxFeatures{min-height:50vh;width: 100%;}
+.pFeatures{font-size: 14px; color: #737373;}
 #img1Sect1{width: 47.32px;height: 40.56px;}
 #img2Sect1{width: 48px;height: 47.41px;}
 #img3Sect1{width: 48px;height: 38px;}
 /***************************section Practice******************/
-#boxPractice{min-height:100vh;background: #fafafa;}
+#boxPractice{min-height:60vh;width:100%;background: #fafafa;}
 .card-text1{font-size: 14px;color:#737373;}
 .card-title1{color:#252B42;}
 /*************************section About***********************/
-#boxAbout{min-height:100vh;}
-#imgSect3{width:333px;height:442px;}
+#boxAbout{min-height:88vh;background: yellowgreen;}
+#imgSect3{width:600px;height:442px;}
 #imgPerson{width: 30px;height: 30px;}
 #imgCompter{width:32px;height: 26px;}
-/*section client*/
-#boxclient{min-height:100vh;background: #f3f3f3}
-.cadreBlue{height:77px; width:144px; background: #252B42;}
+/*************************section client**********************/
+#boxclient{min-height:100vh;background: #fAfAfA}
+#squar{background: #252B42; width: 100%; height: 77px;}
+#squarGreen{background: #16697A; width: 100%; min-height: 124PX;}
+#subcripe{background: #FFA62B;font-size:14px}
 /**********************section contact***********************/
 #boxContact{background: #f3f3f3;min-height:100vh;}
 .card1{background:#00A0C1;color:#fff;} 
@@ -41,8 +41,8 @@ h1{color: #252B42;}
 #imgPosition{width: 75px;height: 71px;}
 #imgLetter{width: 69px;height: 72px;}
 /***************section consulting****************************/
-#consulting {min-height:40vh; background: #fafafa;}
-/*section info*/
+#consulting {min-height:30vh; background: #fafafa;}
+/****************section info*********************************/
 #info{background: #16697A; min-height:272px;}
 .phone{height: 23px; }
 .position{height: 30px; background-color: #8EC2F2;}
