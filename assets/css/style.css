@@ -2,11 +2,10 @@
 body{font-family: 'Montserrat', sans-serif;}
 h2, h5{color:#252B42;}
 p, h6{color:#737373; font-size: 14px;}
-h1{color: #252B42;}
+.h1{color: #252B42;}
+.navbar{background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
 /******************************Section Navigation **************/
 #boxNav{min-height:8vh; background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
-#imgLoupe{height: 16px;}
-#imgPanier{height:16px;}
 /******************************section box Header***************/
 #boxHeader{min-height:48vh; background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
 .sousTitle{color: #737373;}
