@@ -9,15 +9,18 @@ p, h6{color:#737373; font-size: 14px;}
      background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
 /******************************section box Header***************/
 #boxHeader{
-    min-height:48vh; 
+    min-height:100vh; 
     background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);}
 .sousTitle{color: #737373;}
-#getQuote{background: #00A0C1;font-size: 14px;}
+#getQuote{background: #00A0C1;font-size: 14px;height:48px;}
 #learn{ 
     color: #00A0C1; 
     border-color:#00A0C1;
     background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
-    font-size: 14px;}
+    font-size: 14px;
+    width:30%;
+    height: 48px;
+}
 /*****************************section Features*****************/
 #boxFeatures{min-height:50vh; width: 100%;}
 .pFeatures{font-size: 14px; color: #737373;}
@@ -25,12 +28,12 @@ p, h6{color:#737373; font-size: 14px;}
 #img2Sect1{width: 48px;height: 48px;}
 #img3Sect1{width: 48px;height: 38px;}
 /***************************section Practice******************/
-#boxPractice{ min-height:70vh; width:100%;background: #fafafa;}
+#boxPractice{ min-height:100vh; width:100%;background: #fafafa;}
 .card-text1{font-size: 14px;color:#737373;}
 .card-title1{color:#252B42;}
-.boxCard{height: 200px;}
+.boxCard{height: 150px;}
 /*************************section About***********************/
-#boxAbout{min-height:90vh;}
+#boxAbout{min-height:90vh;width: 100%;}
 #imgSect3{width:600px;height:442px;}
 #imgPerson{width: 30px;height: 30px;}
 #imgCompter{width:32px;height: 26px;}
@@ -50,15 +53,15 @@ p, h6{color:#737373; font-size: 14px;}
 #imgPosition{width: 75px;height: 71px;}
 #imgLetter{width: 69px;height: 72px;}
 /***************section consulting****************************/
-#consulting {min-height:20vh; background: #fafafa;}
+#consulting {min-height:30vh; background: #fafafa;}
 .btn1{background: #FFA62B;font-size:14px}
 /****************section info*********************************/
-#info{background: #16697A; min-height:272px;}
+#info{background: #16697A; min-height: 50vh;}
 .phone{height: 23px; }
-.position{height: 30px; background-color: #8EC2F2;}
+.position{height: 30px;}
 .envelop{height: 25px;}
 /******************section footer*****************************/
-#boxFooter{min-height:8vh;width: 100%;}
+#boxFooter{min-height:4vh;width: 100%;}
 /********************Media query******************************/
 @media screen and (max-width: 576px){
     #squar{display: none;}
@@ -75,5 +78,20 @@ p, h6{color:#737373; font-size: 14px;}
         justify-content: center;
         align-items: center;
     }
-        
+    .navbar{background: #ffff;}
+    #button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #practice{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 } 
